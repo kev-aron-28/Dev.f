@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+
+        <form class="form">
+            <input type="text" class="class" placeholder="Nombre" id="name">
+            <input type="text" class="class" placeholder="Edad" id="age">
+            <input type="text" class="class" placeholder="Color de cabello" id="color">
+            <input type="text" class="class" placeholder="Oficio" id="job">
+            <input type="text" class="class" placeholder="Mascota" id="pet">
+            <input type="text" class="class" placeholder="Hobby" id="hobby">
+            <input type="text" class="class" placeholder="Pais de residencia" id="country">
+            <button onclick="create(event)">Crear</button>
+        </form>
+
+        <div class="content">
+            <table id="table">
+                <tr>
+                  <th>Nombre</th>
+                  <th>Edad</th>
+                  <th>Color de cabello</th>
+                  <th>Oficio</th>
+                  <th>Mascota</th>
+                  <th>Hobby</th>
+                  <th>Pais</th>
+                  <th>Acciones</th>
+                </tr>
+                <tr>
+                  <td>Kevin</td>
+                  <td>18</td>
+                  <td>Negro</td>
+                  <td>Estudiante</td>
+                  <td>Perro</td>
+                  <td>Programar</td>
+                  <td>México</td>
+                  <td>
+                      <p id="delete">Eliminar</p>
+                  </td>
+                </tr>
+              </table>
+        </div>
+
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
